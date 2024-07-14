@@ -1,0 +1,170 @@
+@font-face {
+    font-family: main ;
+    src: url('../webfonts/Playwrite_MX/PlaywriteMX-VariableFont_wght.ttf');
+} 
+
+
+body{
+    background-color: black;
+    font-family: main;
+}
+.container{
+    width: 95%;
+}
+
+.item{    
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0 ;
+}
+.caption{
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    inset: 0;
+   transform: translateY(300px);
+   transition: all 0.5s;
+
+}
+ 
+.item:hover .caption{
+    transform: translatey(0px);
+}
+
+.offcanvas-body a{
+   text-decoration: none;
+   display: block;
+   cursor: pointer; 
+   color: white;
+}
+.footer{
+    margin-top: 250px;
+}
+.offcanvas{
+    --bs-offcanvas-width: 300px;
+    /* position: relative; */
+}
+img{
+    height: 300px;
+}
+
+.side{
+    background-color: rgb(176, 113, 31);
+    position: absolute;
+    width: 13%;
+    top: 0;
+    bottom: 0;
+    right:10%;
+    left: 10%;
+}
+.btn-primary{
+    position: absolute;
+    top: 50%;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+.loader {
+    color: #fff;
+    font-size: 10px;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    text-indent: -9999em;
+    animation: mulShdSpin 1.3s infinite linear;
+    transform: translateZ(0);
+  }
+  
+  @keyframes mulShdSpin {
+    0%,
+    100% {
+      box-shadow: 0 -3em 0 0.2em, 
+      2em -2em 0 0em, 3em 0 0 -1em, 
+      2em 2em 0 -1em, 0 3em 0 -1em, 
+      -2em 2em 0 -1em, -3em 0 0 -1em, 
+      -2em -2em 0 0;
+    }
+    12.5% {
+      box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 
+      3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, 
+      -2em 2em 0 -1em, -3em 0 0 -1em, 
+      -2em -2em 0 -1em;
+    }
+    25% {
+      box-shadow: 0 -3em 0 -0.5em, 
+      2em -2em 0 0, 3em 0 0 0.2em, 
+      2em 2em 0 0, 0 3em 0 -1em, 
+      -2em 2em 0 -1em, -3em 0 0 -1em, 
+      -2em -2em 0 -1em;
+    }
+    37.5% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+       3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, 
+       -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+       3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, 
+       -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+       3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, 
+       -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+      box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 
+      3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, 
+      -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+      box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 
+      3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, 
+      -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+  }
+
+  .mini{
+    font-size: 12px;
+  }
+  .icon{
+    cursor: pointer;
+  }
+  .icon p{
+    font-size: 30px;
+  }
+  .icon i{
+    font-size: 50px;
+    color: rgb(191, 46, 235);
+  }
+  .special {
+    font-size: 16px;
+    color: white;
+  }
+  .icontwo i{
+    font-size: 60px;
+    color: blanchedalmond;
+  }
+  .first{
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 20px;
+  }
+  .icontwo{
+    cursor: pointer;
+  }
+
+.offcanvas{
+    --bs-offcanvas-width: 300px;
+    /* position: relative; */
+}
+.offcanvas-body{
+    /* display: none; */
+
+}
+h4 , h2{
+    color: rgb(232, 7, 7);
+}

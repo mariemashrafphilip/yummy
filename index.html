@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- items -->
+<div class="container">
+
+<div class="row mt-5 gy-4" id="row">
+
+</div>
+</div>
+
+
+<!-- off canvas -->
+ <!-- <div class="side"><p>hi</p></div> -->
+ <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars"></i></button>
+
+<div class="offcanvas offcanvas-start text-bg-dark " data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+
+    <div class="offcanvas-header">
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+    </div>
+
+  <div class="offcanvas-body">
+    <a class="offcanvas-body" id="offcanvasScrollingLabel1">Search</a>
+    <a class="offcanvas-body" id="offcanvasScrollingLabel2">Categories</a>
+    <a class="offcanvas-body" id="offcanvasScrollingLabel3">Area</a>
+    <a class="offcanvas-body" id="offcanvasScrollingLabel4">Ingredients</a>
+    <a class="offcanvas-body" id="offcanvasScrollingLabel5">Contact Us</a>
+
+<div class="footer">
+    <i class="fa-brands fa-facebook pe-2"></i>
+    <i class="fa-solid fa-earth-americas pe-2"></i>
+    <i class="fa-brands fa-twitter "></i>
+    <small class="d-block mt-2">Copyright Â© 2019 All Rights Reserved.</small>
+</div>
+  </div>
+</div>
+<!-- search page -->
+<div class="container w-75 d-none mt-5" id="searchPage">
+    <div class="form ">
+        <div class="row" >
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <input type="text" class="form-control bg-black w-100 text-white" id="byName" placeholder="Search By Name">
+                  </div>
+            </div>
+        
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <input type="text" class="form-control bg-black w-100 text-white" id="byLetter" maxlength="1" placeholder="Search By First Letter">
+                  </div>
+            </div>
+        </div>  
+    </div>
+
+        <div class="row mt-5 gy-3" id="rowSearch">
+      
+
+        </div>
+
+</div>
+
+<!-- contact page -->
+<div class="container mt-5 text-center d-none" id="contactPage">
+<div class="row" >
+    <div class="col-md-6">
+        <div class="mb-3">
+            <input type="text" class="form-control bg-black w-100 text-white" id="name" placeholder="Enter Your Name">
+          </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="mb-3">
+            <input type="email" class="form-control bg-black w-100 text-white " id="email" placeholder="Enter Your Email">
+          </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="mb-3">
+            <input type="tel" class="form-control bg-black w-100 text-white" id="phone" placeholder="Enter Your Phone">
+          </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="mb-3">
+            <input type="number" class="form-control bg-black w-100 text-white" id="age" placeholder="Enter Your Age">
+          </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="mb-3">
+            <input type="password" class="form-control bg-black w-100 text-white" id="pass" placeholder="Enter Your Password">
+          </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="mb-3">
+            <input type="password" class="form-control bg-black w-100 text-white" id="repass" placeholder="Repassword">
+          </div>
+    </div>
+
+
+</div>
+<button type="button" class="btn btn-outline-danger ">Submit</button>
+
+</div>
+
+<!-- categories page -->
+<div class="container">
+<div class="row mt-5 gy-4 text-center d-none" id="rowCat">
+</div>
+</div>
+
+<!-- area page -->
+ <div class="container">
+    <div class="row mt-5 gy-4 text-center text-light d-none" id="rowArea">
+       
+        
+    </div>
+ </div>
+
+<!-- ingred page -->
+<div class="container">
+    <div class="row mt-5 gy-4 text-center text-light d-none" id="rowIn">
+       
+        
+    </div>
+ </div>
+<span class="loader d-none justify-content-center align-items-center" ></span>
+
+<div class=" container">
+    <div class="row" id="inside" >
+    
+
+</div>
+</div>
+
+
+
+<script src="js/jquery-3.7.1.min.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
